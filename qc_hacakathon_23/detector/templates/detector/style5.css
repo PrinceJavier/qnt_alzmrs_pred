@@ -1,0 +1,196 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+
+body {
+    background: linear-gradient(#bd5a42,#dea299);
+    height: 100%;
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
+
+.out {
+    max-width: 100vw;
+    background-color: black;
+    height: 120px;
+    margin: 0 auto;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+    flex-wrap: wrap;
+
+}
+
+.top {
+    position: absolute;
+    top: 0;
+    padding: 25px;
+    padding-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+    max-width: 1600px;
+    margin: 0 auto;
+    flex-wrap: wrap;
+}
+
+.out:hover {
+    background-color:darkslategray;
+    max-width: 100vw;
+}
+
+.top .logo {
+    color: #fff;
+    font-weight: 700;
+    text-decoration: none;
+    font-size: 3.5em;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin: 0 auto;
+    max-width: 1600px;
+    z-index: 1000;
+}
+
+.top ul {
+    max-width: 1600px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+}
+
+.top ul li {
+   list-style: none;
+   margin-left: 20px;
+   z-index: 1000;
+}
+
+.top ul li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 6px 15px;
+    z-index: 1000;
+}
+
+.top ul li a:hover, div ul li .active {
+    color: black;
+    background-color: white;
+    border-radius: 20px;
+    z-index: 1000;
+}
+
+#body2 {
+    max-width: 1600px;
+    height: 1400px;
+    margin: 0 auto;
+    position: relative;
+    background-color:inherit;
+    display:flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+#brainpuzzle {
+    position: absolute;
+    bottom: 70px;
+    z-index: 50;
+    right: 0px;
+    width: 400px;
+}
+
+#computerimage {
+    position: absolute;
+    left: 0px;
+    z-index: 50;
+    width: 500px;
+    bottom: 70px;
+}
+
+#alzheimerstext {
+    position: absolute;
+    font-size: 4.1em;
+    font-weight: 700;
+    z-index: 49;
+    top: 975px;
+    left: 65px;
+    color: white;
+}
+
+#detectortext {
+    position: absolute;
+    font-size: 4.1em;
+    font-weight: 700;
+    z-index: 49;
+    top: 1075px;
+    left: 105px;
+    color: white;
+}
+
+#btn-container {
+    max-width: 1600px;
+    height: 100px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transform: translateY(-335px);
+    z-index: 49;
+}
+
+#btn {
+    text-decoration: none;
+    display: inline-block;
+    padding: 8px 30px;
+    border-radius: 40px;
+    background: black;
+    color: white;
+    font-size: 3em;
+    margin: 0 auto 0;
+}
+
+#backgroundpuzzle {
+    position: absolute;
+    top: 0px;
+    width: 1600px;
+    z-index: 20;
+}
+
+.sec {
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: white;
+    max-width: 1400px;
+    height: 730px;
+    margin: 0 auto;
+    position: relative;
+    margin-bottom: 40px;
+    border-radius: 60px;
+    border:solid gray 8px;
+    height: 100%;
+}
+
+.sectionheaders {
+    margin-top: 20px;
+    font-size:6em;
+    font-weight: lighter;
+    color: black;
+    display: block;
+    text-align: center;
+}
+
+.sec p {
+    color: black;
+    font-size: 1.3em;
+    position: static;
+    line-height: 36px;
+    margin: 40px;
+}
