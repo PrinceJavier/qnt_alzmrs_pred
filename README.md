@@ -31,7 +31,7 @@ Run the `get_theta_rep.ipynb` notebook to preprocess the grayscale image into ve
 Run the `Quantum_Image_Classification.ipynb` notebook, which contains the algorithm that measures the similarity of an image with the reference image.
 The output will be the likelihood of Alzheimer's disease in the test images.
 
-### Web App
+### Web App (WIP)
 A proof-of-concept web app takes in an MRI image and converts it to a list of theta values which can then get plugged into the quantum algorithm in `Quantum_Image_Classification.ipynb`. 
 
 ## Folders
