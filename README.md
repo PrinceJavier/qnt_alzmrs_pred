@@ -3,7 +3,7 @@
 ## What is this about
 FuQdan is a quantum computing algorithm that acts as a binary classifier for MRI scan images. The goal of this project is to classify MRI scan images as with dementia or no dementia. By leveraging the power of quantum computing, we aim to provide a more efficient method for analyzing MRI scans in terms of space complexity.
 
-We use the FRQI algorithm to represent an MRI scan image into quantum states and calculate a reference image of a scan with dementia. The reference image is derived from the mean of multiple images. Test images are compared against this reference image using a quantum algorithm that converts the image to quantum states via FRQI. We then calculate the fidelity between the reference image and a test image, convert this fidelity to euclidean distance, and classify the image based on a threshold.
+We use the [FRQI](https://learn.qiskit.org/course/ch-applications/flexible-representation-of-quantum-images-frqi) algorithm to represent an MRI scan image into quantum states and calculate a reference image of a scan with dementia. The reference image is derived from the mean of multiple images. Test images are compared against this reference image using a quantum algorithm that converts the image to quantum states via FRQI. We then calculate the fidelity between the reference image and a test image, convert this fidelity to euclidean distance, and classify the image based on a threshold.
 
 ## How to use
 Obtain MRI images from the Alzheimer's Dataset available at https://www.kaggle.com/datasets/tourist55/alzheimers-dataset-4-class-of-images
@@ -13,9 +13,9 @@ Run the `Quantum_Image_Classification.ipynb` notebook, which contains the algori
 The output will be the likelihood of Alzheimer's disease in the test images.
 
 ## Notebooks
-`get_theta_rep.ipynb` - This notebook contains the preprocessing of the grayscale image to vectors of theta values.
+[`get_theta_rep.ipynb`](https://github.com/PrinceJavier/qnt_alzmrs_pred/blob/main/get_theta_rep.ipynb) - This notebook contains the preprocessing of the grayscale image to vectors of theta values.
 
-`Quantum_Image_Classification.ipynb` - This notebook contains the main quantum algorithm for measuring the similarity between an image and the reference image.
+[`Quantum_Image_Classification.ipynb`](https://github.com/PrinceJavier/qnt_alzmrs_pred/blob/main/Quantum_Image_Classification.ipynb) - This notebook contains the main quantum algorithm for measuring the similarity between an image and the reference image.
 
 ## Data
 Dataset: Alzheimer's Dataset from Kaggle - https://www.kaggle.com/datasets/tourist55/alzheimers-dataset-4-class-of-images
